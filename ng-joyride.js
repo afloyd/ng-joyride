@@ -17,7 +17,7 @@
     var drctv = angular.module('ngJoyRide', []);
     drctv.run(['$templateCache', function ($templateCache) {
         $templateCache.put('ng-joyride-tplv1.html',
-            "<div class=\"popover ng-joyride sharp-borders\"><div class=\"arrow\"></div><h3 class=\"popover-title sharp-borders\"></h3><div class=\"popover-content container-fluid\"></div></div><div class=\"ng-joyride block-content\"></div>"
+            "<div class=\"popover ng-joyride sharp-borders\"><div class=\"arrow\"></div><h3 class=\"popover-title sharp-borders\"></h3><div class=\"popover-content container-fluid\"></div></div>"
         );
         $templateCache.put('ng-joyride-title-tplv1.html',
             "<div id=\"ng-joyride-title-tplv1\"><div class=\"ng-joyride sharp-borders intro-banner\" style=\"\"><div class=\"popover-inner\"><h3 class=\"popover-title sharp-borders\">{{heading}}</h3><div class=\"popover-content container-fluid\"><div ng-bind-html=\"content\"></div><div class=\"disable-container\"><a class=\"disable\" type=\"button\">&nbsp; No tour needed</a></div><hr><div class=\"row\"><div class=\"col-md-4 skip-class\"><a class=\"skipBtn pull-left\" type=\"button\"><i class=\"glyphicon glyphicon-ban-circle\"></i>&nbsp; Skip</a></div><div class=\"col-md-8\"><div class=\"pull-right\"><button class=\"prevBtn btn\" type=\"button\"><i class=\"glyphicon glyphicon-chevron-left\"></i>&nbsp;Previous</button> <button id=\"nextTitleBtn\" class=\"nextBtn btn btn-primary\" type=\"button\">Next&nbsp;<i class=\"glyphicon glyphicon-chevron-right\"></i></button></div></div></div></div></div></div></div>"
@@ -415,12 +415,10 @@
                 function dropCurtain(shouldDrop) {
                     var curtain;
                     $fkEl = $('#ng-curtain');
-                    $fkE2 = $('#ng-block-content');
                     if (shouldDrop) {
                         if ($fkEl.size() === 0) {
-                            $('body').append('<div id="ng-curtain"></div>').append('<div id="ng-block-content"></div>');
+                            $('body').append('<div id="ng-curtain"></div>');
                             $fkEl = $('#ng-curtain');
-                            $fkE2 = $('#ng-block-content');
                             $fkEl.slideDown(1000);
                             $fkEl.animate({opacity: 0.5}, 400, '');
                         } else {
@@ -431,10 +429,7 @@
                         $fkEl.slideUp(100, function () {
                             $fkEl.remove();
                         });
-                        $fkE2.remove();
                     }
-
-
                 }
 
                 scope.$watch('ngJoyRide', function (newval, oldval) {

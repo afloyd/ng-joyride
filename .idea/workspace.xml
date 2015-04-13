@@ -4,11 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8aaed27-8a21-4938-ac55-3579bfc20a5e" name="Default" comment="→ v0.3.0&#10;→ change attribute from">
+    <list default="true" id="d8aaed27-8a21-4938-ac55-3579bfc20a5e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng-joyride.css" afterPath="$PROJECT_DIR$/ng-joyride.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng-joyride.js" afterPath="$PROJECT_DIR$/ng-joyride.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ng-joyride.iws" />
@@ -30,23 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
+            <state vertical-scroll-proportion="0.06614786">
               <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ng-joyride.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ng-joyride.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ng-joyride.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93703705">
-              <caret line="527" column="0" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="522" column="0" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
               <folding>
-                <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+                <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -66,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/ng-joyride.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,9 +87,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/ng-joyride.css" />
         <option value="$PROJECT_DIR$/ng-joyride.js" />
+        <option value="$PROJECT_DIR$/ng-joyride.css" />
+        <option value="$PROJECT_DIR$/bower.json" />
       </list>
     </option>
   </component>
@@ -238,7 +237,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428522939509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="→ v1.1.0&#10;→ Add content blocking element so elements cannot be clicked while in joyride">
+      <created>1428951773186</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1428951773186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -247,6 +252,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14197212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38244852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -255,7 +261,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -284,7 +289,8 @@
     <MESSAGE value="closes #2 &#10; The config will get traversed every time the ng-joyride is set to true. So that configs can change between joyrides." />
     <MESSAGE value="→ v0.2.0&#10;→ Update to handle custom disable function for joyride.&#10;→ Disable checkbox is currently not optional, will always show up.&#10;→ The custom disable function should be provided when calling the ng-joyride with a `dont-show-fn=myFunc()` attribute" />
     <MESSAGE value="→ v1.0.0&#10;→ Change attribute from `dont-show-fn` to `disable-fn`&#10;→ Change disable tour from checkbox to hyperlink" />
-    <option name="LAST_COMMIT_MESSAGE" value="→ v1.0.0&#10;→ Change attribute from `dont-show-fn` to `disable-fn`&#10;→ Change disable tour from checkbox to hyperlink" />
+    <MESSAGE value="→ v1.1.0&#10;→ Add content blocking element so elements cannot be clicked while in joyride" />
+    <option name="LAST_COMMIT_MESSAGE" value="→ v1.1.0&#10;→ Add content blocking element so elements cannot be clicked while in joyride" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -304,7 +310,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="517" column="13" selection-start-line="517" selection-start-column="13" selection-end-line="517" selection-end-column="13" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -338,7 +344,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="532" column="0" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -372,7 +378,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -406,7 +412,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="496" column="27" selection-start-line="496" selection-start-column="27" selection-end-line="496" selection-end-column="27" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -440,7 +446,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="63" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="63" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -466,7 +472,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="438" column="39" selection-start-line="438" selection-start-column="39" selection-end-line="438" selection-end-column="39" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -492,7 +498,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -545,29 +551,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/ng-joyride.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="522" column="0" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
+          <folding>
+            <marker date="1428953752686" expanded="true" signature="779:783" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ng-joyride.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng-joyride.js">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93703705">
-          <caret line="527" column="0" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
-          <folding>
-            <marker date="1428951672018" expanded="true" signature="825:829" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.06614786">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
